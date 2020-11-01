@@ -1,0 +1,6 @@
+.Container__404 {
+  height: 100vw;
+  background: url("../../img/stars.svg"), #1b1b25;
+  background-repeat: repeat;
+  background-size: cover;
+}
