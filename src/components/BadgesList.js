@@ -11,7 +11,11 @@ class BadgesList extends React.Component {
           return (
             <li key={badge.id} className="Badge__card">
               <div className="Badge__img">
-                <img className="Badge__avatar" src={badge.avatarUrl} alt="" />
+                <img
+                  className="Badge__avatar-list"
+                  src={badge.avatarUrl}
+                  alt=""
+                />
               </div>
               <div className="Badge__info">
                 <h4 className="Badge__name">
