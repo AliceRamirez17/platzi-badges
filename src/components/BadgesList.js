@@ -9,7 +9,7 @@ class BadgesList extends React.Component {
       <ul className="list-unstyled">
         {this.props.badges.map((badge) => {
           return (
-            <div className="Badge__card">
+            <li key={badge.id} className="Badge__card">
               <div className="Badge__img">
                 <img className="Badge__avatar" src={badge.avatarUrl} alt="" />
               </div>
@@ -23,7 +23,7 @@ class BadgesList extends React.Component {
                 </div>
                 <p>{badge.jobTitle}</p>
               </div>
-            </div>
+            </li>
           );
         })}
       </ul>
