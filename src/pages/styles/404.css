@@ -1,6 +1,27 @@
 .Container__404 {
-  height: 100vw;
+  height: 100vh;
   background: url("../../img/stars.svg"), #1b1b25;
   background-repeat: repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.Container__img__404 {
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Container__img__404 h3 {
+  text-align: center;
+  color: #98ca3f;
+}
+
+.img__404 {
+  width: 80%;
 }
