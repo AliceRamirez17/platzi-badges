@@ -1,8 +1,22 @@
 import React from "react";
 
+import "./styles/Loader.css";
+
 class Loader extends React.Component {
   render() {
-    return <h1>Loading</h1>;
+    return (
+      <div className="lds-grid">
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+      </div>
+    );
   }
 }
 
