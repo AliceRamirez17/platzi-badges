@@ -19,3 +19,7 @@
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+.BadgeNew__hero-image {
+  max-height: 100px;
+}
