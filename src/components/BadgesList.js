@@ -18,9 +18,11 @@ class BadgesList extends React.Component {
       );
     }
 
+    const badgesList = this.props.badges.slice(0).reverse();
+
     return (
       <ul className="list-unstyled">
-        {this.props.badges.map((badge) => {
+        {badgesList.map((badge) => {
           return (
             <li key={badge.id} className="Badge__card">
               <div className="Badge__img">
