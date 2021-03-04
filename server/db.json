@@ -468,9 +468,9 @@
     {
       "firstName": "Danilo",
       "lastName": "Ramírez",
-      "email": "danilo@gmail.com",
+      "email": "danilo_ramirez@gmail.com",
       "jobTitle": "Engineer",
-      "twitter": "DaniloR",
+      "twitter": "DaniloRam",
       "id": "sQTybS1"
     },
     {
@@ -493,7 +493,7 @@
       "firstName": "Usuario 2",
       "lastName": "",
       "email": "",
-      "jobTitle": "",
+      "jobTitle": "Engineer",
       "twitter": "",
       "id": "WbCtNEO"
     }
